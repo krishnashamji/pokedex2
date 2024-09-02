@@ -1,0 +1,165 @@
+/* ---------- RESET ---------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ---------- UNIVERSAL ---------- */
+
+html {
+	height: 100%;
+}
+
+body {
+    background: #2B1C55;
+	color: #E6DCFF;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 28px;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 28px;
+}
+
+.stat {
+	color: #FAF8A6;
+}
+
+.divider-h {
+	height: 1px;
+	background: #7F64CC;
+	border-radius: 2px;
+	width: 100%;
+}
+
+.divider-v {
+	height: 100%;
+	background: #7F64CC;
+	border-radius: 2px;
+	width: 1px;
+}
+
+button {
+	background: #E9E5FF;
+	color: #5A4794;
+	margin: auto;
+	padding: 12px 24px;
+	width: 100%;
+	border-radius: 8px;
+	border: none;
+	font-size: 16px;
+}
+
+/* ---------- POKEMON CARD ---------- */
+
+.pokemonCard {
+	display: flex;
+	flex-direction: column;
+	background: #5A4794;
+	width: 400px; /* How do I get the pokemon card to hug the size of the contents? */
+	margin: auto;
+	padding: 12px 16px;
+	gap: 12px;
+	border-radius: 16px;
+}
+
+/* ---------- POKEMON IMAGE ---------- */
+
+.pokemonImg {
+	width: 100%;
+	background: #ECEDFEFF;
+}
+
+img {
+	background: #7F64CC;
+	border-radius: 8px;
+}
+
+
+/* ---------- HEADING ---------- */
+
+.heading-row {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.hpStat {
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+}
+
+/* ---------- STATS & POWERS ---------- */
+
+.stats-row {
+	display: flex;
+	justify-content: space-between;
+	gap: 8px;
+}
+
+.stat-column {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	width: 100%;
+}
+
+.stat-content {
+	display: flex;
+	gap: 8px;
+}
+
+
+#hide {
+	display: none;
+}

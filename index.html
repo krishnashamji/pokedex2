@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="container">
+    <div id="hide" class="pokemonCard">
+        <!-- HEADINGS -->
+         <div class="heading-row">
+            <h1 class="stat">Pokèmon Name</h1>
+            <div class="hpStat">
+                <h2 class="stat">00</h2>
+                <h2>HP</h2>
+            </div>
+         </div>
+
+        <!-- IMAGE -->
+        <img class="pokemonImg" src="./assets/pokemonImg.png" alt="Pokèmon Image">
+
+        <div class="divider-h"></div>
+        
+        <div class="stats-row">
+            <div class="stat-column">
+                <div class="stat-content">
+                    <h4>ATT</h4>
+                    <h4 class="stat">000</h4>
+                </div>
+                <div class="stat-content">
+                    <h4>SAT</h4>
+                    <h4 class="stat">000</h4>
+                </div>
+            </div>
+
+            <div class="divider-v"></div>
+
+            <div class="stat-column">
+                <div class="stat-content">
+                    <h4>DEF</h4>
+                    <h4 class="stat">000</h4>
+                </div>
+                <div class="stat-content">
+                    <h4>SDF</h4>
+                    <h4 class="stat">000</h4>
+                </div>
+            </div>
+
+            <div class="divider-v"></div>
+
+            <div class="stat-column">
+                <div class="stat-content">
+                    <h4>SPD</h4>
+                    <h4 class="stat">00</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider-h"></div>
+
+        <!-- POWERS -->
+        <div class="stats-row">
+            <div class="stat-column">
+                <h4>MOVES</h4>
+                <h4 class="stat">move 1</h4>
+                <h4 class="stat">move 2</h4>
+            </div>
+
+            <div class="divider-v"></div>
+
+            <div class="stat-column">
+                <h4>TYPE</h4>
+                <h4 class="stat">Type 1</h4>
+                <h4 class="stat">Type 2</h4>
+            </div>
+
+            <div class="divider-v"></div>
+
+            <div class="stat-column">
+                <h4>ABLITIES</h4>
+                <h4 class="stat">Ablitiy 1</h4>
+                <h4 class="stat">Ablitiy 2</h4>
+            </div>
+        </div>
+
+        <div class="divider-h"></div>
+
+        <!-- BUTTON -->
+        <button id="generateButton" class="generateButton">GENERATE</button>
+        
+        <div class="divider-h"></div>
+
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
