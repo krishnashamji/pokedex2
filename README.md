@@ -1,16 +1,20 @@
-# Shortify
+# Random Pokémon Generator Pokedex
 
 ## Overview
-
-Shortify is a simple backend web application designed to shorten URLs. This project was created as a learning exercise to gain familiarity with backend development concepts, including routing, handling HTTP requests, and working with databases.
+Random Pokémon Generator Pokedex is a simple web application that generates and displays random Pokémon. This project was created as a practice to get familiar with end-to-end full-stack development, covering everything from building the backend to creating a user-friendly frontend interface.
 
 ## Features
-
-- URL Shortening: Convert long URLs into short, easy-to-share links.
-- Custom Short URLs: Allows users to create custom short URLs.
-- Redirection: Automatically redirects users from the short URL to the original long URL.
+- Random Pokémon Generation: Fetch and display a random Pokémon with each button click.
+- Pokémon Details: View basic information about the generated Pokémon, including its name, type, HP, abilites, moves, and image.
+- Responsive Design: Optimized for both desktop and mobile devices.
 
 ## Technologies Used
-- Node.js & Express.js: For building the server and handling routing.
-- MongoDB: For storing URL mappings.
-- nanoid: To generate unique, short identifiers for URLs.
+
+### Frontend
+- React.js: For building the user interface and managing state.
+- Axios: For making HTTP requests to the backend API.
+- CSS/Styled Components: For styling the application.
+
+### Backend
+- Node.js & Express.js: For building the server and handling API requests.
+- Pokémon API: To fetch Pokémon data dynamically
